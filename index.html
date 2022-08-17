@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jogo da Força</title>
+</head>
+
+<body>
+    <a href="https://www.alura.com.br/" target="_blank"><img src="img/vector.png" alt="" /></a>
+
+    <section class="principal">
+        <div class="btns_inicio">
+            <button id="inicio">Começar jogo</button>
+            <button id="adicionar_palavra">Adicionar palavra</button>
+        </div>
+
+        <div class="div_input">
+            <input id="palavra_nova" type="text" value="" maxlength="8" placeholder="Digite sua palavra" />
+        </div>
+
+        <span><img src="./img/signo_de_exclamação.png" alt="" />Máx. 8
+            caracteres</span>
+
+        <div class="btns_salvar">
+            <button id="salvar_palavra">Salvar e começar</button>
+            <button id="cancelar">Cancelar</button>
+        </div>
+
+        <!-- <canvas id="myCanvas" width="900" height="460"></canvas> -->
+        <canvas id="myCanvas"></canvas>
+
+        <div class="btns_jogo">
+            <button id="novo_jogo">Novo jogo</button>
+            <button id="desistir">Desistir</button>
+        </div>
+    </section>
+
+    <footer>
+        <strong><em>By Wlad Kochmansky</em></strong>
+        <div>
+            <a href="https://github.com/Vladoxx" target="_blank"><img src="/img/github.png" alt=""
+                    class="redes-sociais" /></a>
+            <a href="https://www.linkedin.com/in/wladkoch/?locale=pt_BR" target="_blank"><img src="/img/linkedin.png"
+                    alt="" class="redes-sociais" /></a>
+        </div>
+    </footer>
+
+    <script src="/scripts/funcionalidade.js"></script>
+    <script src="/scripts/botoes-da-forca.js"></script>
+    <script src="/scripts/canvas.js"></script>
+</body>
+
+</html>
